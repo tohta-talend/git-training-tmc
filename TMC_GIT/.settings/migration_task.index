@@ -319,6 +319,66 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddDefaultVersionValueToElasticsearchComponentMigrationTask",
+    "breaks" : "7.1.0",
+    "version" : "7.1.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddEMRFSMetadataTableNameToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddInTransitEncryptionCheckboxToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddKMSKeyIdToS3ConfigurationMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddOptionSplitableToImportHdfsFileMigrationTask",
+    "breaks" : "7.2.0",
+    "version" : "7.2.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddReadFromModetoInputComponentsMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddStandardDeviationToAggregateRowComponentMigrationTask",
+    "breaks" : "7.2.1",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.AddSupportedSparkVersionMigrationTask",
+    "breaks" : "6.4.0",
+    "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.CheckAndAddFrameworkForMapReduceJobMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.0.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.DBR540ToDBR550MigrationTask",
+    "breaks" : "7.2.0",
+    "version" : "7.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.UnifyPasswordEncryption4ParametersInMRJobMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.mapreduce.repository.migration.UpdateOracle18VersionSupportMigrationTask",
+    "breaks" : "7.1.1",
+    "version" : "7.2.0",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.maven.ui.ConfigMavenRepositoryRemove",
     "breaks" : "6.0.1",
     "version" : "6.0.2",
@@ -389,10 +449,40 @@
     "version" : "6.2.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.hadoopcluster.migration.AdaptDeprecatedHadoopVersionsMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.1.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.hadoopcluster.migration.ChangeHadoopConfJarNameMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.1.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.hadoopcluster.migration.ReviseInvalidContextNamesOfHadoopPropertiesMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.1.2",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.hadoopcluster.migration.UpdateHadoopConfsForContextualHadoopClusterMigrationTask",
+    "breaks" : "6.4.0",
+    "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.hadoopcluster.model.migration.MoveHDFSAndHCatalogToHadoopFolderMigrationTask",
     "breaks" : "5.3.0",
     "version" : "5.3.0",
     "status" : "ok"
+  }, {
+    "id" : "org.talend.repository.hcatalog.model.migration.PushHCatalogIntoHadoopClusterMigrationTask",
+    "breaks" : "5.3.0",
+    "version" : "5.3.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.hdfs.model.migration.PushHDFSIntoHadoopClusterMigrationTask",
+    "breaks" : "5.3.0",
+    "version" : "5.3.0",
+    "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.json.migrations.JsonPathMigrationTask",
     "breaks" : "6.0.0",
@@ -1393,6 +1483,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
+    "breaks" : "5.1.1",
+    "version" : "5.1.2",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
@@ -1402,6 +1497,11 @@
     "breaks" : "5.1.9",
     "version" : "5.1.2",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.GenerateJobPomMigrationTask",
+    "breaks" : "7.0.1",
+    "version" : "7.0.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.GoogleStorageSetDefaultAuthTypeMigrationTask",
     "breaks" : "7.3.0",
@@ -2184,6 +2284,21 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.nosql.repository.migration.ChangeMongoDBConnectionMinimalVersionMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.0.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.nosql.repository.migration.FixCassandraDataStaxDbtypesProblemMigrationTask",
+    "breaks" : "6.0.1",
+    "version" : "6.1.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.nosql.repository.migration.UnifyPasswordEncryption4NoSQLConnectionMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.0",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.repository.renametFileInputCSV",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -2220,6 +2335,16 @@
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.sap.repository.migration.UnifyPasswordEncryption4SapConnectionMigrationTask",
+    "breaks" : "5.6.0",
+    "version" : "5.6.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.storm.repository.migration.CheckAndAddFrameworkForStormJobMigrationTask",
+    "breaks" : "6.0.0",
+    "version" : "6.0.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.storm.repository.migration.UnifyPasswordEncryption4ParametersInStormJobMigrationTask",
     "breaks" : "5.6.0",
     "version" : "5.6.0",
     "status" : "noimpact"
